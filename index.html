@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smoking cost calculator</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Smoking cost calculator">
+  <meta name="author" content="Tuomo Sillanpaa">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Smoking cost calculator</h1>
+    <h2>A shiny app for calculating smoking costs</h2>
+    <p>Tuomo Sillanpaa<br/>Student</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Description of the Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br></p>
+
+<h4> - The Smoking Cost Calculator -app is a simple </h4>
+
+<h4> way to measure the costs of one's smoking over </h4>
+
+<h4> a perioid of time. </h4>
+
+<p><br></p>
+
+<h4> - Such information might then serve to motivate </h4>
+
+<h4> the user to reduce or altogether quit his/her smoking. </h4>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Motivation behind the Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br></p>
+
+<h4> - The app was designed as a coursework for the </h4>
+
+<h4> course "Developing Data Products". </h4>
+
+<p><br></p>
+
+<h4> - The goal was to create a simple shiny app </h4>
+
+<h4> that gives the user useful information based </h4>
+
+<h4> on his/her input. </h4>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Functionality of the Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br></p>
+
+<h4> - The user can input values for his/her </h4>
+
+<h4> amount of years and months of smoking, </h4>
+
+<h4> the average amount of packs smoked each month, </h4>
+
+<h4> and the average price of each pack in euros. </h4>
+
+<p><br></p>
+
+<h4> - After the user presses the "Submit"-button, </h4>
+
+<h4> the app calculates the total cost based on these values. </h4>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Example values and result</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br></p>
+
+<h4> - For example, if the user inputs the following values: </h4>
+
+<h5> Years smoked: 2 </h5>
+
+<h5> Months smoked: 4 </h5>
+
+<h5> Packs per month on average: 9 </h5>
+
+<h5> Price of pack on average in euros: 4.5 </h5>
+
+<p><br></p>
+
+<h4> The calculation and the result will be as follows: </h4>
+
+<pre><code class="r">((12 * 2) + 4) * 9 * 4.5
+</code></pre>
+
+<pre><code>## [1] 1134
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Description of the Application'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Motivation behind the Application'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Functionality of the Application'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Example values and result'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
